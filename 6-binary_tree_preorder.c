@@ -11,7 +11,7 @@
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
 	if (tree == NULL || func == NULL)
-        return;
+		return;
 
 	/* Call the function with the value of the current node */
 	func(tree->n);
